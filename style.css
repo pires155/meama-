@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffe4ec;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif; /* Arial para tudo */
 }
 
 .tela {
@@ -34,6 +34,7 @@ body {
 h1 {
   font-size: 2rem;
   color: #444;
+  font-family: Arial, Helvetica, sans-serif; /* Garantido que o h1 usa Arial */
 }
 
 .botoes {
@@ -51,6 +52,7 @@ button {
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif; /* Garantido que os botões usam Arial */
 }
 
 button:hover {
